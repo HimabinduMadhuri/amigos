@@ -1,0 +1,19 @@
+<div>
+    <div *ngIf = "!loginStatus">
+
+        <form>
+            <h4>Login</h4>
+             UserName:<input type="text" [(ngModel)]="this.userName" name="userName" #t1><br>
+             Password:<input type="password" [(ngModel)] ="this.password" name="password"><br>
+             <button (click)="checkLogin(t1)">LogIn</button>
+
+             {{msg}}
+        </form>
+    </div>
+    <div *ngIf ="loginStatus">
+        <form>
+            <button (click)="LogOut()" >LogOut</button>
+        </form>
+
+    </div>
+</div>

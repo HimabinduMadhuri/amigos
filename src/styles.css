@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+.container1{
+    background-color: #b2d3f8; 
+     margin: 5px;  
+     padding: 5px;  
+     border-radius: 5px; 
+      height: 350px; 
+}
+
+.container2{
+    background-color: #d8f696; 
+     margin: 5px; 
+      padding: 5px; 
+       border-radius: 3px; 
+        height: 150px; 
+}
+.error{
+    color:red;
+}
